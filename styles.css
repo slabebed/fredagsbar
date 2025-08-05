@@ -1,0 +1,75 @@
+body {
+  font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.4em;
+  }
+
+  .winner {
+    font-size: 3em;
+  }
+
+  .trophy {
+    font-size: 20px;
+  }
+
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.responsive-img {
+  width: 100%;
+  max-width: 800px;  /* or whatever size you want */
+  height: auto;
+}
+.event {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 0px;
+
+}
+
+mark {
+  background-color:orangered;
+}
+
+.description {
+  font-style: italic;
+	font-size: 1.5em;
+  margin: 10px, 10px;
+}
+
+.trophy {
+  font-size: 2.5em;
+}
+
+.winner {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+hr {
+  border: none;
+  border-top: 1.5px solid #000000;
+  margin: 40px 0;
+}
